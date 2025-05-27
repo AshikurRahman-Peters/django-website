@@ -1,11 +1,12 @@
+from django.shortcuts import render
 from django.http import HttpResponse
 
 
 def employee(request):
-    return HttpResponse("This is the employee page.");
+    return HttpResponse("Employee Profile Page")
 
 
 
 def profile(request):
-    return HttpResponse("This is the profile page.");
+    return render(request, 'employee/profile.html')
 
