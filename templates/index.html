@@ -7,4 +7,13 @@
     <h1 class="mt-5">Welcome to the Home Page!</h1>
     <p class="lead">This is a simple home page built with Bootstrap.</p>
 </div>
+    <p>Name: {{ name }}</p>
+    <p>age: {{ age }}</p>
+    <p> {{ skills }}</p>
+    <ul>
+        {% for skill in skills %}
+            <li>{{ skill }}</li>
+        {% endfor %}
+
+    </ul
 {%endblock%}
