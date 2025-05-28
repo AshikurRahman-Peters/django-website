@@ -1,0 +1,12 @@
+ body{
+background: RED;
+color: red;
+ }
+
+ h5 {
+  font-size: 40px;
+  text-shadow: 4px 3px 3px black;
+}
+.carousel-item {
+    height: 32rem;
+}
